@@ -14,7 +14,7 @@ class Wecare extends Component {
               We at VYAAN care for your health and this planet. We are working
               on various technology to reduce the Pollution at source itself. But
               to address the immediate adversity we have developed a portable
-              powered respirator that ensures you breathe the pure air.
+              powered respirator that ensures you breathe pure air even in the most polluted environment.
           </div>
           <div className="col-3 ">
             <img src={wecareimg2} alt="wecareimg2" height="330px" width="17%" />
