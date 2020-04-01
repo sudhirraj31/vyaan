@@ -6,20 +6,26 @@
   position: relative; 
 }
 .header {
-} 
-.header img {
-  width: 40%;
-  height: auto;
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.logo img{
+  width: 50%;
+  height: 50%;    
 }
 .navigation {
   text-align: center;
   width: 100%;
-  min-width: 20%;
-  padding: 2.5em;
+  height: 100%;
+
 }
 .navigation a {
-  width: 100%;
-  font-size: 1.2em;
+  width: 100%;  
+  /* padding-top: 3px; */
   color: rgba(46, 46, 46, 0.932);
 }
 /* .............................................................................................. */
@@ -31,28 +37,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   border-radius: 0.5em;
 }
 .titles {
   color: rgba(235, 235, 235, 0.904);
   width: 100%;
+  height: auto;
   position: relative;
   top: 25%;
-  left: -3em;
 }
 .titles h1 {
-  font-size: 50px;
+  /* font-size: 40px; */
 }
 .titles p {
-  font-size: 28px;
+  /* font-size: 22px; */
   margin-top: 1em;
 }
 .titles a{
   color: rgb(197, 197, 197);
   position: relative;
-  top: 40px;
-  font-size: 1em;
+  top: 1em;
+  /* font-size: 1em; */
   font-weight: 400;
 }
 #titlesfirst {
@@ -62,11 +68,12 @@
 
 /* stats */
 .stats {
-  margin: 2%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
   background-color: rgb(255, 241, 228);
-  padding: 10px;
   width: 100%;
-  height: 90vh;
+  height: auto;
   border-radius: 5px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -74,7 +81,7 @@
   color: #00595fc0;
   width: 100%;
   margin: auto;
-  padding: 50px;
+  padding: 1em;
   text-align: center;
 }
 .stats img {
@@ -90,6 +97,7 @@
   width: 100%;
   text-align: center;
   margin-top: 2em;
+  padding: 1em;
 }
 
 /* .............................................................................................. */
@@ -97,13 +105,14 @@
 .facts {
   background-color: rgba(231, 229, 230);
   width: 100%;
-  height: 80vh;
+  height: auto;
   border-radius: 5px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .facts img {
+  margin: auto;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .facts h4 {
   color: #616161ea;
@@ -115,11 +124,10 @@
 .facts p {
   color: #999999;
   font-size: 20px;
-  width: 50%;
   margin: auto;
-  margin-top: 25px;
+  padding: 1em;
   text-align: center;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
 }
 
 /* .............................................................................................. */
@@ -145,7 +153,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   margin: 5%;
   border-radius: 1em;
   box-shadow: 1px 2px 4px 2px rgba(0, 88, 74, 0.781);
@@ -153,7 +161,7 @@
 .breathing h1 {
   color: #ebf0ff;
   width: 10%;
-  line-height: 3em;
+  line-height: 2.5em;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -174,13 +182,11 @@
   border-radius: 10px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.msg {
+.wemsg {
   margin: auto;
   text-align: center;
-  letter-spacing: 3px;
-  line-height: 1.5em;
-  font-size: 20px;
-  font-weight: 600;
+  line-height: 2em;
+  font-weight: 700;
   color: rgba(75, 75, 75, 0.815);
 }
 /* .............................................................................................. */
@@ -194,17 +200,19 @@
   margin: auto;
 }
 .navlinks a {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   color:rgb(98, 198, 255);
   display: block;
-  margin: 10px;
+  margin: 1em;
 }
 .logo2 {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
-.footer img {
-  width: 60%;
-  height: auto;
+.logo2 img {
+  width: 100%;
+  height: 100%;
 }
 .address {
   margin: auto;

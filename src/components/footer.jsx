@@ -4,7 +4,7 @@ import logo2 from "./img/logo2.png";
 class Footers extends Component {
   render() {
     return (
-      <div className="container-fluid footer">
+      <div className="container footer">
         <div className="row">
           <div className="col-4 navlinks" style = {{textAlign: "left"}}>
             <a href="./aboutus">About Us</a>
@@ -14,9 +14,9 @@ class Footers extends Component {
             <img src={logo2} alt="logo2" />
           </div>
           <div className="col-4 address">
-            <h3>Contact Us</h3>
-            <div>I-04, Tides, IIT Roorkee, Haridwar (UK)</div>
-            <div>+91-7995981488</div>
+            <h5>Contact Us</h5>
+            <p>I-04, Tides, IIT Roorkee, Haridwar (UK)</p>
+            <p>+91-7995981488</p>
           </div>
         </div>
         <div className = "row copyrights">

@@ -10,7 +10,7 @@ class Wecare extends Component {
           <div className="col-3 ">
             <img src={wecareimg1} alt="wecareimg1" height="330px" width="17%" />
           </div>
-          <div className="col-6 msg" >
+          <div className="container col-6 wemsg" >
               We at VYAAN care for your health and this planet. We are working
               on various technology to reduce the Pollution at source itself. But
               to address the immediate adversity we have developed a portable

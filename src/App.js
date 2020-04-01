@@ -10,13 +10,13 @@ function App() {
     <div className="main">
       <div className="container header">
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 logo">
             <a href="/">
               <img src={logo} alt="vyaanlogo" />
             </a>
           </div>
-          <div className="col-8">
-            <Navigation className="navigation">
+          <div className="col-8 navigation">
+            <Navigation>
               <a href="/">Home</a>
               <a href="./Products">Products</a>
               <a href="./blog">Blog</a>

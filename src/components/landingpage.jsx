@@ -11,7 +11,7 @@ class Landingpage extends Component {
   render() {
     return (
       <div className = "home">
-        <div className="container-fluid landingpage">
+        <div className="container landingpage">
           <Titles />
         </div>
         <div id="scrolldown" className="container-fluid content">
@@ -22,7 +22,7 @@ class Landingpage extends Component {
             <p>
               Slowly and steadily it damages the respiratory system leading to many chronic ailments like asthma and copd  </p>
           </div>
-          <div className="container-fluid breathing">
+          <div className="container breathing">
             <h1>It’s Everyone’s Right to Breathe Clean Air</h1>
           </div>
           <Wecare />
