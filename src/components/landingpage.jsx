@@ -20,7 +20,7 @@ class Landingpage extends Component {
           <div className="container lungs">
             <img src={lungs} alt="lungs" />
             <p>
-              Slowly and steadily it damages the respiratory system leading to many chronic ailments like asthma and copd  </p>
+              Slowly and steadily it damages the respiratory system leading to many chronic ailments like asthma and Chronic Obstructive Pulmonary Diseases (COPD).  </p>
           </div>
           <div className="container breathing">
             <h1>It’s Everyone’s Right to Breathe Clean Air</h1>

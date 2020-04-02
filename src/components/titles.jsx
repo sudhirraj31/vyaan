@@ -12,7 +12,7 @@ class Titles extends Component {
             92%
           </span>{" "}
           of people <span style={{ color: "#003399" }}>Worldwide</span> do not
-          breath <br></br>
+          breathe <br></br>
           <span style={{ fontWeight: "bold" }}>Safe Air</span>
         </h1>
         <p>It’s highly possible you are also one of them</p>
