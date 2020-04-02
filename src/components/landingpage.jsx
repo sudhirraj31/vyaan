@@ -11,7 +11,7 @@ class Landingpage extends Component {
   render() {
     return (
       <div className = "home">
-        <div className="container landingpage">
+        <div className="container-fluid landingpage">
           <Titles />
         </div>
         <div id="scrolldown" className="container-fluid content">

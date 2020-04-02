@@ -20,7 +20,7 @@ class Footers extends Component {
           </div>
         </div>
         <div className = "row copyrights">
-          <div className ="col-10" style = {{textAlign: "left"}}><a href ="/">Copyright </a>2020 Vyaan. All rights reserved.</div>
+          <div className ="col-10" style = {{textAlign: "left"}}><p style = {{color:"grey"}}>Copyrights 2020 Vyaan. All rights reserved.</p></div>
           <div className ="col-2"style = {{textAlign: "right"}}><a href ="/">Privacy policy</a></div>
         </div>
       </div>

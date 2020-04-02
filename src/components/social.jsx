@@ -9,7 +9,7 @@ class Social extends Component {
         <a href="https://www.linkedin.com/in/vyaan-purifiers-348341194/ " target="_blank" rel="noopener noreferrer" className="linkedin social">
           <FaLinkedin size="3.5em" />
         </a>
-        <a href="./contactus" className="twitter social">
+        <a href="https://twitter.com/vyaan_life" target = "_blank" rel="noopener noreferrer" className="twitter social">
           <FaTwitterSquare size="3.5em" />
         </a>
       </div>
