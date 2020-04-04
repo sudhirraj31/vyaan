@@ -12,13 +12,13 @@ class Stats extends Component {
         </h2>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-5">
               <img
                 src={statsimg1}
                 alt="statsimg1"
               />
             </div>
-            <div className="col">
+            <div className="col-7">
               <img
                 src={statsimg2}
                 alt="statsimg2"

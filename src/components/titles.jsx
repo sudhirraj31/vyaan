@@ -19,6 +19,9 @@ class Titles extends Component {
         <a href="#scrolldown" class="btn btn-info" role="button">
           Tell me more
         </a>
+        <a href="./Products" class="btn btn-info" role="button">
+          Test button
+        </a>
       </div>
     );
   }
