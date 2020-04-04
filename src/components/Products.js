@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Header from "./header";
+
 
 // const versions = ["Basic Version", "Powered Version"];
 
@@ -6,6 +8,7 @@ class Products extends Component {
   render() {
     return (
       <div className="container products">
+        <Header />
         <h1>Product Featuers</h1>
         <div className="row ">
           <div className="col product-info">

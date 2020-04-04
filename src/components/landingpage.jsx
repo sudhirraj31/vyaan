@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Titles from "./titles";
+import Header from "./header";
 
 import Social from './social';
 import Stats from "./stats";
@@ -12,6 +13,7 @@ class Landingpage extends Component {
     return (
       <div className = "home">
         <div className="container-fluid landingpage">
+          <Header />
           <Titles />
         </div>
         <div id="scrolldown" className="container-fluid content">

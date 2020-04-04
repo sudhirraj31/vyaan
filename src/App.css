@@ -12,10 +12,11 @@
 .logo {
   width: 100%;
   height: 100%;
+  text-align: left;
 }
 .logo img{
-  width: 50%;
-  height: 50%;    
+  width: 40%;
+  height: 40%;    
 }
 .navigation {
   width: 100%;
@@ -26,32 +27,34 @@
 .navigation a {
   width: 100%;  
   color: rgba(46, 46, 46, 0.932);
+  font-size: 1.3vw;
 }
 /* .............................................................................................. */
 /* .landingpage */
-
 .landingpage {
   background-image: url(./img/landingimage.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 82vh;
+  height: 100vh;
   border-radius: 0.5em;
+  padding-top: 2em;
 }
 .titles {
   color: rgba(235, 235, 235, 0.904);
   width: 100%;
   height: auto;
   position: relative;
-  top: 25%;
+  top: 20%;
+  left: 5%;
 }
-.titles h1 {
-  /* font-size: 40px; */
+.titles h1{
+  font-size: 3vw;
 }
 .titles p {
-  /* font-size: 22px; */
   margin-top: 1em;
+  font-size: 2vw;
 }
 .titles a{
   color: rgb(197, 197, 197);
@@ -78,6 +81,7 @@
 }
 .stats h2 {
   color: #00595fc0;
+  font-size: 2.3vw;
   width: 100%;
   margin: auto;
   padding: 1em;
@@ -92,7 +96,7 @@
 }
 .stats p {
   color: #999999;
-  font-size: 20px;
+  font-size: 1.7vw;
   width: 100%;
   text-align: center;
   margin-top: 2em;
@@ -115,6 +119,7 @@
 }
 .facts h4 {
   color: #616161ea;
+  font-size: 2vw;
   width: 100%;
   margin: auto;
   line-height: 1.5em;
@@ -122,7 +127,7 @@
 }
 .facts p {
   color: #999999;
-  font-size: 20px;
+  font-size: 1.7vw;
   margin: auto;
   padding: 1em;
   text-align: center;
@@ -138,7 +143,7 @@
   width: 35%;
 }
 .lungs p {
-  font-size: 20px;
+  font-size: 1.5vw;
   width: 70%;
   color: #999999;
   text-align: center;
@@ -162,6 +167,7 @@
   color: #ebf0ff;
   width: 10%;
   line-height: 2.5em;
+  font-size: 2.5vw;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -184,6 +190,7 @@
 .wemsg {
   margin: auto;
   text-align: center;
+  font-size: 1.5vw;
   line-height: 2em;
   font-weight: 700;
   color: rgba(75, 75, 75, 0.815);
@@ -197,15 +204,15 @@
 }
 .navlinks {
   margin: auto;
+  
 }
 .navlinks a {
-  /* font-size: 1.5em; */
+  font-size: 1.3vw;
   color:rgb(98, 198, 255);
   display: block;
   margin: 1em;
 }
 .logo2 {
-
   text-align: center;
   width: 100%;
   height: 100%;
@@ -216,9 +223,22 @@
   height: 50%;
 }
 .address {
-  margin: auto;
   text-align: right;
 }
+.address h5{
+  font-size: 2vw;
+}
+.address p{
+  font-size: 1vw;  
+}
+.address i{
+  font-size: 1vw;  
+}
+.copyrights {
+  font-size: 1vw; 
+  color:#555555;
+}
+
 /* .............................................................................................. */
 /* bottomline */
 .bottomline {
@@ -241,7 +261,9 @@
   margin-top: 3em;
   width: 50%;
 }
-
+.aboutus p {
+  font-size: 1.25vw; 
+}
 
 
 
@@ -250,7 +272,7 @@
 /* Contact US */
 .contactus p {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.5vw; 
   color: rgb(100, 100, 100);
 }
 .contactus p::before {
@@ -259,14 +281,16 @@
   content: "Thank you for visiting us!";
   display: block;
   text-align: center;
-  font-size: 24px;
+  font-size: 2vw; 
 }
 .contactus p::after {
   color: rgba(0, 62, 133, 0.781);
   margin: 1.5em;
   content: "vyaanpurifiers@gmail.com";
   display: block;
-  text-align: center;}
+  text-align: center;
+  font-size: 1.25vw; 
+}
 /* .............................................................................................. */
 /* Social */
 .social {
@@ -277,7 +301,7 @@
   color:rgba(0, 100, 104, 0.856);
   margin:5px 10px;
   text-align: center;
-  font-size: 27px;
+  font-size: 2vw; 
   font-weight: 500;
 }
 a.social {
@@ -326,6 +350,7 @@ a.social:hover {
   color: #02354db0;
 }
 .product-info p {
+  font-size: 1vw; 
   margin-left: 1em;
   color: #999999;
 }

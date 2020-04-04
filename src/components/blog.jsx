@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Header from "./header";
 
 class Blog extends Component {
-    state = {  }
-    render() { 
-        return ( 
-            <div className ="blog">
-                Coming Soon!
-            </div>
-         );
-    }
+  render() {
+    return (
+      <div className="container">
+        <Header />
+        <div className="blog">Coming Soon!</div>
+      </div>
+    );
+  }
 }
- 
+
 export default Blog;

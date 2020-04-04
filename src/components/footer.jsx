@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import logo2 from "./img/logo2.png";
+// import { GoLocation, MdPhone } from "react-icons/fa";
+
 
 class Footers extends Component {
   render() {
@@ -16,11 +18,11 @@ class Footers extends Component {
           <div className="col-4 address">
             <h5>Contact Us</h5>
             <p>I-04, Tides, IIT Roorkee, Haridwar (UK)</p>
-            <p>+91-7995981488</p>
+            <i>+91-7995981488</i>
           </div>
         </div>
         <div className = "row copyrights">
-          <div className ="col-10" style = {{textAlign: "left"}}><p style = {{color:"grey"}}>Copyrights 2020 Vyaan. All rights reserved.</p></div>
+          <div className ="col-10" style = {{textAlign: "left"}}>Copyrights 2020 Vyaan. All rights reserved.</div>
           <div className ="col-2"style = {{textAlign: "right"}}><a href ="/">Privacy policy</a></div>
         </div>
       </div>
