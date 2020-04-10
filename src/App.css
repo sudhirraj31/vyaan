@@ -209,6 +209,13 @@
   position: relative;
   bottom: 0;
 }
+<<<<<<< HEAD
+=======
+/* .navlinks {
+  margin: auto;
+  
+} */
+>>>>>>> b3f1baf34b54e6fb933330a4e46da6d5b46fdbe5
 .navlinks a {
   font-size: 1.3vw;
   color:rgb(98, 198, 255);
