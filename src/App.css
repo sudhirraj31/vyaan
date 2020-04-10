@@ -70,7 +70,7 @@
   font-weight: 400;
 }
 #titlesfirst {
-  font-size: 5vw;
+  font-size: 5  vw;
 }
 /* .............................................................................................. */
 
@@ -209,19 +209,19 @@
   position: relative;
   bottom: 0;
 }
-<<<<<<< HEAD
-=======
-/* .navlinks {
+.navlinks {
   margin: auto;
-  
-} */
->>>>>>> b3f1baf34b54e6fb933330a4e46da6d5b46fdbe5
+}
 .navlinks a {
   font-size: 1.3vw;
   color:rgb(98, 198, 255);
   display: block;
   margin: 1em;
   text-decoration: none;
+  transition: 0.3s;
+}
+.navlinks a:hover {
+  color: #004561;
 }
 .logo2 {
   text-align: center;
