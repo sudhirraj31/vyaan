@@ -210,15 +210,16 @@
   position: relative;
   bottom: 0;
 }
-.navlinks {
+/* .navlinks {
   margin: auto;
   
-}
+} */
 .navlinks a {
   font-size: 1.3vw;
   color:rgb(98, 198, 255);
   display: block;
   margin: 1em;
+  text-decoration: none;
 }
 .logo2 {
   text-align: center;
