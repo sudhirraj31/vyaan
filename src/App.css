@@ -45,7 +45,6 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
-  border-radius: 0.5em;
   padding-top: 2em;
 }
 .titles {
@@ -71,7 +70,7 @@
   font-weight: 400;
 }
 #titlesfirst {
-  font-size: 60px;
+  font-size: 5vw;
 }
 /* .............................................................................................. */
 
@@ -210,15 +209,12 @@
   position: relative;
   bottom: 0;
 }
-.navlinks {
-  margin: auto;
-  
-}
 .navlinks a {
   font-size: 1.3vw;
   color:rgb(98, 198, 255);
   display: block;
   margin: 1em;
+  text-decoration: none;
 }
 .logo2 {
   text-align: center;
