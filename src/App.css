@@ -1,6 +1,7 @@
 .main {
   width: 100%;
   position: relative;
+  /* background-color: rgb(236, 246, 255); */
 }
 .home {
   position: relative; 
@@ -8,7 +9,7 @@
 .header {
   width: 100%;
   text-align: center;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 .logo {
   width: 100%;
@@ -23,12 +24,17 @@
 .navigation {
   width: 100%;
   height: 100%;
-
+  margin-top: 2%;   
 }
 .navigation a {
   width: 100%;  
   color: rgba(46, 46, 46, 0.932);
-    font-size: 1.3vw;
+  font-size: 1.5vw;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: #808080;
 }
 /* .............................................................................................. */
 /* .landingpage */
@@ -51,7 +57,7 @@
   left: 5%;
 }
 .titles h1{
-  font-size: 3vw;
+  font-size: 3.2vw;
 }
 .titles p {
   margin-top: 1em;
@@ -61,7 +67,7 @@
   color: rgb(197, 197, 197);
   position: relative;
   top: 1em;
-  /* font-size: 1em; */
+  font-size: 1.3vw;
   font-weight: 400;
 }
 #titlesfirst {
@@ -161,6 +167,7 @@
   height: auto;
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 1%;
   border-radius: 1em;
   box-shadow: 1px 2px 4px 2px rgba(0, 88, 74, 0.781);
 }
@@ -301,7 +308,7 @@
   color:rgba(0, 100, 104, 0.856);
   margin:5px 10px;
   text-align: center;
-  font-size: 2vw; 
+  font-size: 2.4vw; 
   font-weight: 500;
 }
 a.social {

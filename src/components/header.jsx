@@ -16,10 +16,10 @@ class Header extends Component {
           <div className="col-8 navigation">
             <Navigation>
               <a href="/">Home</a>
-              <a href="/Products">Products</a>
-              <a href="/blog">Blog</a>
-              <a href="/aboutus">About Us</a>
-              <a href="/contactus">Contact Us</a>
+              <a href="./Products">Products</a>
+              <a href="./blog">Blog</a>
+              <a href="./aboutus">About Us</a>
+              <a href="./contactus">Contact Us</a>
               {/* <a href="./careers">Careers</a> */}
             </Navigation>
           </div>

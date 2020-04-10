@@ -7,10 +7,10 @@ class Social extends Component {
       <div className="container social">
         <div className="social-title">Connect with us on</div>
         <a href="https://www.linkedin.com/in/vyaan-purifiers-348341194/ " target="_blank" rel="noopener noreferrer" className="linkedin social">
-          <FaLinkedin size="3.5em" />
+          <FaLinkedin size="3.5vw" />
         </a>
         <a href="https://twitter.com/vyaan_life" target = "_blank" rel="noopener noreferrer" className="twitter social">
-          <FaTwitterSquare size="3.5em" />
+          <FaTwitterSquare size="3.5vw" />
         </a>
       </div>
     );

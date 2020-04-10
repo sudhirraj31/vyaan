@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import logo2 from "./img/logo2.png";
-// import { GoLocation, MdPhone } from "react-icons/fa";
+// import logo2 from "./img/logo2.png";
+import logo from "./img/vyaanlogo.png";
 
 
 class Footers extends Component {
@@ -12,8 +12,8 @@ class Footers extends Component {
             <a href="./aboutus">About Us</a>
             <a href="./Products">Products</a>
           </div>
-          <div className="col-4 logo2">
-            <img src={logo2} alt="logo2" />
+          <div className="col-4 logo2"> 
+            <img src={logo} alt="logo2" />
           </div>
           <div className="col-4 address">
             <h5>Contact Us</h5>
