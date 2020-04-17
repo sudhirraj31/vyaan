@@ -10,22 +10,9 @@ class Stats extends Component {
           Do you know it's lethal to live in almost all the major cities of
           India.
         </h2>
-        <div className="container">
-          <div className="row">
-            <div className="col-5">
-              <img
-                src={statsimg1}
-                alt="statsimg1"
-              />
-            </div>
-            <div className="col-7">
-              <img
-                src={statsimg2}
-                alt="statsimg2"
-                className ="statsimg2"
-              />
-            </div>
-          </div>
+        <div className="container statsimg">
+          <img src={statsimg1} alt="image" className="statsimg1" />
+          <img src={statsimg2} alt="image" className="statsimg2" />
         </div>
         <p>
           Well, that is the level of pollution in the air that we breathe today.

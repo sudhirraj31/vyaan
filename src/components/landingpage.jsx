@@ -16,7 +16,7 @@ class Landingpage extends Component {
           <Header />
           <Titles />
         </div>
-        <div id="scrolldown" className="container-fluid content">
+        <div id="scrolldown" className="content">
           <Stats />
           <Facts />
           <div className="container lungs">
@@ -24,7 +24,7 @@ class Landingpage extends Component {
             <p>
               Slowly and steadily it damages the respiratory system leading to many chronic ailments like asthma and Chronic Obstructive Pulmonary Diseases (COPD).  </p>
           </div>
-          <div className="container breathing">
+          <div className="container-fluid breathing">
             <h1>It’s Everyone’s Right to Breathe Clean Air</h1>
           </div>
           <Wecare />

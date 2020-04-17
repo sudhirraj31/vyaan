@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./header";
+import Card from "./card";
 
 class Aboutus extends Component {
   render() {
@@ -16,6 +17,32 @@ class Aboutus extends Component {
             tackle.
           </p>
         </div>
+        {/* <div className ="container team">
+          <h1>The Team</h1>
+          <p>Meet our exceptionally talented team of digital natives.</p>
+          <div className ="row">
+            <div className ="col-md">
+              <Card/>
+            </div>
+            <div className ="col-md">
+              <Card/>
+            </div>
+            <div className ="col-md">
+              <Card/>
+            </div>
+          </div>
+          <div className ="row">
+          <div className ="col-md">
+              <Card/>
+            </div>
+            <div className ="col-md">
+              <Card/>
+            </div>
+            <div className ="col-md">
+              <Card/>
+            </div>
+          </div>
+        </div> */}
       </div>
     );
   }

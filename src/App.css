@@ -1,15 +1,11 @@
 .main {
   width: 100%;
   position: relative;
-  /* background-color: rgb(236, 246, 255); */
-}
-.home {
-  position: relative; 
+  padding-bottom: 1em;
 }
 .header {
   width: 100%;
   text-align: center;
-  /* margin-top: 2%; */
 }
 .logo {
   width: 100%;
@@ -56,17 +52,17 @@
   left: 5%;
 }
 .titles h1{
-  font-size: 3.2vw;
+  font-size: 3em;
 }
 .titles p {
   margin-top: 1em;
-  font-size: 2vw;
+  font-size: 1em;
 }
 .titles a{
   color: rgb(197, 197, 197);
   position: relative;
   top: 1em;
-  font-size: 1.3vw;
+  font-size: 1em;
   font-weight: 400;
 }
 #titlesfirst {
@@ -93,12 +89,16 @@
   padding: 1em;
   text-align: center;
 }
-.stats img {
+.statsimg {
+  text-align: center;
+}
+.statsimg1 {
   width: 100%;
   height: auto;
 }
 .statsimg2 {
-  box-shadow: 1px 1px 1px 1px rgba(133, 133, 133, 0.481);
+  width: 70%;
+  box-shadow: 1px 15px 15px 1px rgba(133, 133, 133, 0.481);
 }
 .stats p {
   color: #999999;
@@ -122,6 +122,7 @@
   margin: auto;
   width: 100%;
   height: 100%;
+  box-shadow: 1px 10px 10px 1px rgba(133, 133, 133, 0.481);
 }
 .facts h4 {
   color: #616161ea;
@@ -163,12 +164,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
   height: auto;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 1%;
-  border-radius: 1em;
-  box-shadow: 1px 2px 4px 2px rgba(0, 88, 74, 0.781);
+  margin: 5%;
+  /* margin-bottom: 1%; */
+  /* border-radius: 1em; */
+  /* box-shadow: 1px 2px 4px 2px rgba(0, 88, 74, 0.781); */
 }
 .breathing h1 {
   color: #ebf0ff;
@@ -176,7 +178,7 @@
   line-height: 2.5em;
   font-size: 2.5vw;
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 /* .............................................................................................. */
 /* wecare */
@@ -184,12 +186,13 @@
   background-color: #ebf0ff;
   width: 100%;
   height: auto;
-  padding: 5%;
+  margin-top: 5%;
+  padding: 1em 2em ;
   border-radius: 4px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .wecare img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 10px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
@@ -209,9 +212,9 @@
   position: relative;
   bottom: 0;
 }
-.navlinks {
-  margin: auto;
-}
+/* .navlinks {
+  margin: auto ;
+} */
 .navlinks a {
   font-size: 1.3vw;
   color:rgb(98, 198, 255);
@@ -261,22 +264,55 @@
 }
 /* .............................................................................................. */
 /* Abuotus */
-.aboutus {
+
+.aboutus p {
   background-color: #e9efff;
+  font-size: 1.25vw; 
   margin: auto;
   text-align: center;
   border-radius: 2px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-  padding: 2em 4em;
-  margin-top: 3em;
-  width: 50%;
+  padding: 2em 1em;
+  margin-top: 1em;
+  width: 100%;
 }
-.aboutus p {
-  font-size: 1.25vw; 
+.team {
+  margin: auto;
+  margin-top: 2em;
+}
+.team h1 {
+  color:rgb(110, 110, 110);
+  
+  text-align: center;
+}
+.team p {
+  color:rgb(139, 139, 139);
+  text-align: center;
+}
+.card {
+  margin: auto;
+  margin-top: 1em;
+  width: 80%;
+}
+.card-img-top {
+  width: 100%;
+
+}
+.sociallinks {
+  padding:1em;
+  text-align: center;
+}
+.sociallinks a  {
+  padding: .5em;
 }
 
-
-
+.card h5{
+  color: #555555;
+}
+.card p{
+  font-size: 1em;
+  
+}
 /* .............................................................................................. */
 
 /* Contact US */
@@ -345,30 +381,84 @@ a.social:hover {
 
 /* .............................................................................................. */
 /* Products */
-.products h1 {
-  margin-top: 1.2em;
-  margin-left: 1em;
-  color: #056e9e;
-}
-.product-info {
-  margin: 1em 2em;
-  padding: 2em 2em;
-  box-shadow: 1px 2px 3px 2px rgba(187, 187, 187, 0.581);
-  border-radius: 4px;
-}
-.product-info h2 {
-  color: #02354db0;
-}
-.product-info p {
-  font-size: 1vw; 
-  margin-left: 1em;
-  color: #999999;
-}
-.product-features {
-  color: #555555;
-  line-height: 2em;
+.basicgif {
+  text-align: center;
 }
 
+.products-title {
+  text-align: center;
+  margin-top: 2em;
+}
+.products-title h1 {
+  color: #909090;
+  font-weight: 500;
+}
+.products-title h2 {
+  color: #003952;
+  margin-top: 1.5em;
+}
+.products-title p {
+  color: #363636;
+  font-size: 1.2vw;
+}
+.features {
+  margin: auto;
+}
+.features p {
+  color: #5e5e5e;
+  font-size: 1.5vw;
+  /* padding: .3em; */
+}
+.airflow-content {
+  margin: auto;
+  text-align: center;
 
+}
+.airflow {
+  text-align: center;
+}
 
+.airflow img {
+  width: 60%;
+  height: auto;
+
+}
+.silicone {
+  text-align: center;
+}
+.silicone-content {
+  text-align: center;
+
+}
+.silicone img {
+  width: 40%;
+  height: auto;
+  
+}
+.filter {
+  text-align: center;
+}
+.filter img {
+  width: 50%;
+  height: auto;
+}
+.filter h5 {
+  color:#696969;
+  margin-top: 1em;
+}
+.filterring {
+  text-align: center;
+}
+.filterring img {
+  width: 60%;
+  height: auto;
+}
+.filterring h5{
+  color:#696969;
+  margin-top: 1em;
+}
+.filter-content {
+  text-align: center;
+  color: #363636;
+}
 /* .............................................................................................. */

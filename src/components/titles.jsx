@@ -7,7 +7,7 @@ class Titles extends Component {
         <h1>
           <span
             id="titlesfirst"
-            style={({ color: "#b30000" })}
+            style={({ fontSize:"1.7em",color: "#b30000" })}
           >
             92%
           </span>{" "}
