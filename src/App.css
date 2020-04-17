@@ -384,6 +384,10 @@ a.social:hover {
 .basicgif {
   text-align: center;
 }
+.basicgif img {
+  width: 30%;
+  height: auto;
+}
 
 .products-title {
   text-align: center;
