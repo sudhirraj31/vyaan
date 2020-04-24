@@ -11,7 +11,7 @@ import filterring from "./img/ring.jpg";
 class Products extends Component {
   render() {
     return (
-      <div className="container-fluid productsmain">
+      <React.Fragment>
         <Header />
         <div className="container-fluid basicgif">
           <img src={video} alt="loading" />
@@ -22,7 +22,7 @@ class Products extends Component {
             Stay healthy and breathe clean air with Vyaan N99 mask. Designed for
             superior particle and other pollutant filtration technology.
           </p>
-          <h2>Product Featuers</h2>
+          <h2>Product Features</h2>
         </div>
         <div className="container features">
           <div className="row ">
@@ -71,7 +71,7 @@ class Products extends Component {
           Available in Variant Colors
           </h3> */}
         </div>
-      </div>
+        </React.Fragment>
     );
   }
 }

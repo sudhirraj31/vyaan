@@ -6,7 +6,8 @@ import logo from "./img/vyaanlogo.png";
 class Footers extends Component {
   render() {
     return (
-      <div className="container footer">
+      <React.Fragment>
+        <div className="container">
         <div className="row">
           <div className="col-4 navlinks" style = {{textAlign: "left"}}>
             <a href="./aboutus">About Us</a>
@@ -25,7 +26,8 @@ class Footers extends Component {
           <div className ="col-10" style = {{textAlign: "left"}}>Copyrights 2020 Vyaan. All rights reserved.</div>
           <div className ="col-2"style = {{textAlign: "right"}}><a href ="/">Privacy policy</a></div>
         </div>
-      </div>
+        </div>
+        </React.Fragment>
     );
   }
 }

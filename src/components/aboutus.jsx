@@ -5,7 +5,7 @@ import Card from "./card";
 class Aboutus extends Component {
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <Header />
         <div className="container aboutus">
           <p>
@@ -43,7 +43,7 @@ class Aboutus extends Component {
             </div>
           </div>
         </div> */}
-      </div>
+      </React.Fragment>
     );
   }
 }

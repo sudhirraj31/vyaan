@@ -4,10 +4,10 @@ import Header from "./header";
 class Blog extends Component {
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <Header />
         <div className="blog">Coming Soon!</div>
-      </div>
+        </React.Fragment>
     );
   }
 }

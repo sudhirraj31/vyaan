@@ -11,8 +11,8 @@ class Facts extends Component {
           </div>
           <div className="col">
             <h4>
-              <span style={{ color: "#b3003b" }}>
-                SMOKING 20 CIGARETTE
+              <span style={{ color: "#b3003b",fontSize:"1.1em" }}>
+                SMOKING 20 CIGARETTES
               </span>{" "}
               a <span style={{ fontWeight: "bold" }}>day</span> just breathing
               in the city like <span style={{ fontWeight: "bold" }}>Delhi</span>

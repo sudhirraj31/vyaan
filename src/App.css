@@ -1,5 +1,5 @@
 .main {
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   padding-bottom: 1em;
 }
@@ -208,9 +208,8 @@
 /* .............................................................................................. */
 /* footer */
 .footer {
-  width: 100%;
-  position: relative;
-  bottom: 0;
+  margin: auto;
+  width: 97%;
 }
 /* .navlinks {
   margin: auto ;
@@ -264,7 +263,9 @@
 }
 /* .............................................................................................. */
 /* Abuotus */
-
+.aboutus {      
+  text-align: center;
+}
 .aboutus p {
   background-color: #e9efff;
   font-size: 1.25vw; 
@@ -316,26 +317,119 @@
 /* .............................................................................................. */
 
 /* Contact US */
-.contactus p {
-  text-align: center;
-  font-size: 1.5vw; 
-  color: rgb(100, 100, 100);
+.thankyou {
+  background-color:rgba(54, 40, 134, 0.945) ;
+  padding: 2em;
+  padding-bottom: 7em;
+  width: 100%;
 }
-.contactus p::before {
-  color: rgba(65, 65, 65, 0.932);
-  margin: 1.5em;
-  content: "Thank you for visiting us!";
-  display: block;
+
+.thankyou h2 {
   text-align: center;
   font-size: 2vw; 
+  color: rgb(255, 255, 255);  
+  margin: 0 auto ;
+
 }
-.contactus p::after {
-  color: rgba(0, 62, 133, 0.781);
+.thankyou h2::after {
+  color: rgba(241, 241, 241, 0.781);
   margin: 1.5em;
-  content: "vyaanpurifiers@gmail.com";
+  content: "Need help or have questions? Contact Us with the form below.";
   display: block;
   text-align: center;
-  font-size: 1.25vw; 
+  font-size: 1.2vw; 
+}
+.write-us {
+  padding: 1.5em;
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: -3em;
+  box-shadow: 1px 2px 4px rgba(177, 177, 177, 0.5);
+  
+}
+.contactform::before {
+  content: "Get in Touch";
+  display: block;
+  color: rgba(54, 40, 134, 0.945);
+  font-size: 2vw;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
+}
+.contactinfo {
+  margin: 1.5em auto;
+
+}
+.contactinfo h3 {
+  color: #5f5f5f;
+  font-weight: 700;
+  font-size: 2vw;
+}
+.contactinfo h3::after {
+  content: "Please complete the form and we will respond within two business days.";
+  display: block;
+  color: #999999;
+  font-size: 1vw;  
+  font-weight: 300;
+  margin-top: 1em;
+  width: 70%;
+}
+.contactinfo h5{
+  margin:1em;
+  margin-top: 2em;
+  color: #5a5a5a;
+  font-weight: 500;
+  font-size: 1.2vw;
+  
+}
+
+.contactinfo-address h5::after {
+  content: "I-04, Tides, IIT Roorkee, Haridwar (UK)";
+  display: block;
+  color: #999999;
+  font-size: 0.8vw;  
+  font-weight: 300;
+  padding-left: 2.5em ;
+}
+.hours h5::after {
+  content: "Mon-Fri 9:00am-6:00pm IST";
+  display: block;
+  color: #999999;
+  font-size: 0.8vw;  
+  font-weight: 300;
+  padding-left: 2.5em;
+}
+.email h5::after {
+  content: "vyaanpurifiers@gmail.com";
+  display: block;
+  color: #999999;
+  font-size: 0.8vw;  
+  font-weight: 300;
+  padding-left: 2.5em;
+}
+.phone h5::after {
+  content: "+91-7995981488";
+  display: block;
+  color: #999999;
+  font-size: 0.8vw;  
+  font-weight: 300;
+  padding-left: 2.5em;
+}
+.form-group input{
+  font-size: 1vw;
+  margin-top: 1em;
+}
+.form-group textarea{
+  font-size: 1vw;
+  margin-top: 1em;
+}
+.form-group {
+  text-align: center;
+}
+.form-group button {
+  margin:1em; 
+  font-size: 1.2vw;
 }
 /* .............................................................................................. */
 /* Social */
@@ -383,6 +477,8 @@ a.social:hover {
 /* Products */
 .basicgif {
   text-align: center;
+  box-shadow: 1px 1px 20px 1px rgba(91, 113, 187, 0.425);
+  
 }
 .basicgif img {
   width: 30%;
@@ -396,21 +492,24 @@ a.social:hover {
 .products-title h1 {
   color: #909090;
   font-weight: 500;
+  font-size: 2em;
 }
 .products-title h2 {
-  color: #003952;
+  color: #00374e9a;
   margin-top: 1.5em;
+  font-size: 1.8em;
+  font-weight: 700;
 }
 .products-title p {
-  color: #363636;
-  font-size: 1.2vw;
+  color: #a1a1a1;
+  font-size: 1.2em;
 }
 .features {
   margin: auto;
 }
 .features p {
-  color: #5e5e5e;
-  font-size: 1.5vw;
+  color: #7c7c7c;
+  font-size: 1.3em;
   /* padding: .3em; */
 }
 .airflow-content {
@@ -420,19 +519,20 @@ a.social:hover {
 }
 .airflow {
   text-align: center;
+  
+  
 }
 
 .airflow img {
   width: 60%;
   height: auto;
-
+  
 }
 .silicone {
   text-align: center;
 }
 .silicone-content {
   text-align: center;
-
 }
 .silicone img {
   width: 40%;
@@ -449,6 +549,8 @@ a.social:hover {
 .filter h5 {
   color:#696969;
   margin-top: 1em;
+  box-shadow: 1px 1px 2px 1px rgba(146, 146, 146, 0.781);
+
 }
 .filterring {
   text-align: center;
@@ -460,9 +562,14 @@ a.social:hover {
 .filterring h5{
   color:#696969;
   margin-top: 1em;
+  box-shadow: 1px 1px 2px 1px rgba(146, 146, 146, 0.781);
+
 }
 .filter-content {
   text-align: center;
   color: #363636;
+}
+.home-product {
+  background-color: #00456188;
 }
 /* .............................................................................................. */
