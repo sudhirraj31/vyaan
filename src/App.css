@@ -477,7 +477,8 @@ a.social:hover {
 /* Products */
 .basicgif {
   text-align: center;
-  box-shadow: 1px 1px 20px 1px rgba(91, 113, 187, 0.425);
+  box-shadow: 1px 1px 15px 1px rgba(91, 113, 187, 0.425);
+  margin-top: 2em;
   
 }
 .basicgif img {
