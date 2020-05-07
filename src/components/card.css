@@ -1,0 +1,24 @@
+.card {
+    margin: auto;
+    margin-top: 1em;
+    width: 80%;
+  }
+  .card-img-top {
+    width: 100%;
+  
+  }
+  .sociallinks {
+    padding:1em;
+    text-align: center;
+  }
+  .sociallinks a  {
+    padding: .5em;
+  }
+  
+  .card h5{
+    color: #555555;
+  }
+  .card p{
+    font-size: 1em;
+    
+  }

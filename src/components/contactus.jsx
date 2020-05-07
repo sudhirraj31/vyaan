@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import "./contactus.css";
 import Social from "./social";
 import Header from "./header";
 import ContactForm from "./contactform";
 import {MdLocationOn,MdAccessTime,MdCall,MdEmail} from "react-icons/md";
+
+
 class Contactus extends Component {
+  
   render() {
     return (
       <React.Fragment>
@@ -17,7 +21,7 @@ class Contactus extends Component {
               <h3>Contact Us</h3>
               <div className="row">
                 <div className="col contactinfo-address">
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                   <h5><MdLocationOn size="1.2em" color="#32a2a8"/> ADDRESS</h5>
                 </div>
                 <div className="col hours">

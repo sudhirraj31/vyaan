@@ -1,0 +1,26 @@
+.titles {
+    color: rgba(235, 235, 235, 0.904);
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20%;
+    left: 5%;
+  }
+  .titles h1{
+    font-size: 3em;
+    text-shadow: #252525 1px 0 2px;
+  }
+  .titles p {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+  .titles a{
+    color: rgb(197, 197, 197);
+    position: relative;
+    top: 1em;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #titlesfirst {
+    font-size: 5  vw;
+  }

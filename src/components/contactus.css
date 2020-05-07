@@ -1,0 +1,114 @@
+.thankyou {
+    background-color:rgba(54, 40, 134, 0.945) ;
+    padding: 2em;
+    padding-bottom: 7em;
+    width: 100%;
+  }
+  
+  .thankyou h2 {
+    text-align: center;
+    font-size: 2vw; 
+    color: rgb(255, 255, 255);  
+    margin: 0 auto ;
+  
+  }
+  .thankyou h2::after {
+    color: rgba(241, 241, 241, 0.781);
+    margin: 1.5em;
+    content: "Need help or have questions? Contact Us with the form below.";
+    display: block;
+    text-align: center;
+    font-size: 1.2vw; 
+  }
+  .write-us {
+    padding: 1.5em;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: -3em;
+    box-shadow: 1px 2px 4px rgba(177, 177, 177, 0.5);
+    
+  }
+  .contactform::before {
+    content: "Get in Touch";
+    display: block;
+    color: rgba(54, 40, 134, 0.945);
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    margin: 1em;
+  }
+  .contactinfo {
+    margin: 1.5em auto;
+  
+  }
+  .contactinfo h3 {
+    color: #5f5f5f;
+    font-weight: 700;
+    font-size: 2vw;
+  }
+  .contactinfo h3::after {
+    content: "Please complete the form and we will respond within two business days.";
+    display: block;
+    color: #999999;
+    font-size: 1vw;  
+    font-weight: 300;
+    margin-top: 1em;
+    width: 70%;
+  }
+  .contactinfo h5{
+    margin:1em;
+    margin-top: 2em;
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 1.2vw;
+    
+  }
+  
+  .contactinfo-address h5::after {
+    content: "I-04, Tides, IIT Roorkee, Haridwar (UK)";
+    display: block;
+    color: #999999;
+    font-size: 0.8vw;  
+    font-weight: 300;
+    padding-left: 2.5em ;
+  }
+  .hours h5::after {
+    content: "Mon-Fri 9:00am-6:00pm IST";
+    display: block;
+    color: #999999;
+    font-size: 0.8vw;  
+    font-weight: 300;
+    padding-left: 2.5em;
+  }
+  .email h5::after {
+    content: "vyaanpurifiers@gmail.com";
+    display: block;
+    color: #999999;
+    font-size: 0.8vw;  
+    font-weight: 300;
+    padding-left: 2.5em;
+  }
+  .phone h5::after {
+    content: "+91-7995981488";
+    display: block;
+    color: #999999;
+    font-size: 0.8vw;  
+    font-weight: 300;
+    padding-left: 2.5em;
+  }
+  .form-group input{
+    font-size: 1vw;
+    margin-top: 1em;
+  }
+  .form-group textarea{
+    font-size: 1vw;
+    margin-top: 1em;
+  }
+  .form-group {
+    text-align: center;
+  }
+  .form-group button {
+    margin:1em; 
+    font-size: 1.2vw;
+  }

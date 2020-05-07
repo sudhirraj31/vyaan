@@ -1,12 +1,12 @@
 import React, { Component } from "react";
+import "./product.css";
 import Header from "./header";
-// import ReactPlayer from 'react-player';
-import video from "./img/basic.gif";
+import gif from "./img/basic.gif";
 import airflow from "./img/airflow.png";
 import silicone from "./img/silicone.png";
 import filter from "./img/filter.png";
 import filterring from "./img/ring.jpg";
-// const versions = ["Basic Version", "Powered Version"];
+
 
 class Products extends Component {
   render() {
@@ -14,7 +14,7 @@ class Products extends Component {
       <React.Fragment>
         <Header />
         <div className="container-fluid basicgif">
-          <img src={video} alt="loading" />
+          <img src={gif} alt="loading" />
         </div>
         <div className="container products-title">
           <h1>Basic Version</h1>
@@ -51,7 +51,7 @@ class Products extends Component {
           <h3 style={{ textAlign: "center", color: "#2D9CDB",margin:"2em 1em" ,borderBottom:"1px solid #2D9CDB"}}>
             Easier to Breathe – Minimal Pressure Drop
           </h3>
-          <div className="row ">
+          <div className="row aboutfilter">
             <div className="col-3 filter">
               <img src={filter} alt="filter" />
               <h5>Filter</h5>

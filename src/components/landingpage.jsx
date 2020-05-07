@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import "./landingpage.css";
 import Titles from "./titles";
 import Header from "./header";
-
+import gif from "./img/basic.gif";
 import Social from './social';
 import Stats from "./stats";
 import Facts from "./facts";
@@ -28,6 +29,17 @@ class Landingpage extends Component {
             <h1>It’s Everyone’s Right to Breathe Clean Air</h1>
           </div>
           <Wecare />
+          
+          {/* <div className="home-product-link">
+              <div className="row" >
+                <div className="col-4 home-mask-gif">
+                  <a href="/"><img src={gif} alt="mask"/></a>
+                </div>
+                <div className="col-8 explore-products">
+                <a href="/">Explore Our Products</a>
+                </div>
+              </div>
+          </div> */}
           <Social/>
         </div>
       </div>

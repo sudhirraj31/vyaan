@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./card.css";
 import img from "./img/sudhir.jpg";
 import { FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
@@ -6,7 +7,7 @@ class Card extends Component {
   render() {
     return (
       <div className="card">
-        <img className="card-img-top" src={img} alt="Card image cap" />
+        <img className="card-img-top" src={img} alt="profile" />
         <div className="card-body">
           <div className ="row">
             <div className="col"><h5 className="card-title">Card title</h5></div>

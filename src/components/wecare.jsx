@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./wecare.css";
 import wecareimg1 from "./img/left.jpg";
 import wecareimg2 from "./img/right.jpg";
 

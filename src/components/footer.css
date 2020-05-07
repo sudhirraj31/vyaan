@@ -1,0 +1,45 @@
+.footer {
+    margin: auto;
+    width: 97%;
+  }
+  /* .navlinks {
+    margin: auto ;
+  } */
+  .navlinks a {
+    font-size: 1.3vw;
+    color:rgb(98, 198, 255);
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .navlinks a:hover {
+    color: #004561;
+  }
+  .logo2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .logo2 img {
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+  }
+  .address {
+    text-align: right;
+  }
+  .address h5{
+    font-size: 2vw;
+  }
+  .address p{
+    font-size: 1vw;  
+  }
+  .address i{
+    font-size: 1vw;  
+  }
+  .copyrights {
+    font-size: 1vw; 
+    color:#555555;
+  }
+  

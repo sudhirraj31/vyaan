@@ -1,0 +1,130 @@
+.basicgif {
+    text-align: center;
+    box-shadow: 1px 1px 15px 1px rgba(91, 113, 187, 0.425);
+    margin-top: 2em;
+    
+  }
+  .basicgif img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .products-title {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .products-title h1 {
+    color: #909090;
+    font-weight: 500;
+    font-size: 2em;
+  }
+  .products-title h2 {
+    color: #00374e9a;
+    margin-top: 1.5em;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  .products-title p {
+    color: #a1a1a1;
+    font-size: 1.2em;
+  }
+  .features {
+    margin: auto;
+  }
+  .features p {
+    color: #7c7c7c;
+    font-size: 1.3em;
+    /* padding: .3em; */
+  }
+  .airflow-content {
+    margin: auto;
+    text-align: center;
+  
+  }
+  .airflow {
+    text-align: center;
+    
+    
+  }
+  
+  .airflow img {
+    width: 60%;
+    height: auto;
+    
+  }
+  .silicone {
+    text-align: center;
+  }
+  .silicone-content {
+    text-align: center;
+  }
+  .silicone img {
+    width: 40%;
+    height: auto;
+    
+  }
+  .aboutfilter h5{
+    margin: auto;
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1.5vw;
+    /* background-color: #00416A; */
+  }
+  .filter {
+    text-align: center;
+  }
+  .filter img {
+    width: 50%;
+    height: auto;
+  }
+  .filter h5 {
+    color:#696969;
+    margin-top: 1em;
+    box-shadow: 1px 1px 2px 1px rgba(146, 146, 146, 0.781);
+  
+  }
+  .filterring {
+    text-align: center;
+  }
+  .filterring img {
+    width: 60%;
+    height: auto;
+  }
+  .filterring h5{
+    color:#696969;
+    margin-top: 1em;
+    box-shadow: 1px 1px 2px 1px rgba(146, 146, 146, 0.781);
+  
+  }
+  .filter-content {
+    text-align: center;
+    color: #363636;
+  }
+  .home-product-link  {
+    margin-top:3em;
+    margin-bottom:3em;
+    box-shadow: 1px 10px 20px 1px rgba(146, 146, 146, 0.781);
+    padding: 1em;
+    
+  }
+  
+  .home-product-link img{
+    width: 40%;
+    height: auto;
+    
+  }
+  .home-product-link a{
+    text-align: center;
+  }
+  .explore-products{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+  .explore-products a {
+    font-size: 2.5vw;
+    font-weight: 700;
+  }

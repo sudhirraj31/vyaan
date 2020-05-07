@@ -1,0 +1,31 @@
+.aboutus {      
+    text-align: center;
+  }
+  .aboutus p {
+    background-color: #e9efff;
+    font-size: 1.25vw; 
+    margin: auto;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 2em 1em;
+    margin-top: 1em;
+    width: 100%;
+  }
+  .team {
+    margin: auto;
+    margin-top: 2em;
+  }
+  .team h1 {
+    color:rgb(110, 110, 110);
+    
+    text-align: center;
+  }
+  .team p {
+    color:rgb(139, 139, 139);
+    text-align: center;
+  }
+  .team col{
+    width: 50%;
+  }
+  

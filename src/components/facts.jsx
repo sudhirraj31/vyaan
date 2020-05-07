@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./facts.css";
 import factsimg from "./img/facts.jpg";
 
 class Facts extends Component {

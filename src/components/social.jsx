@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./social.css";
 import { FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 class Social extends Component {

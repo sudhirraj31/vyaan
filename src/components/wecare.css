@@ -1,0 +1,23 @@
+.wecare {
+    background-color: #ebf0ff;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    padding: 1em 2em ;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .wecare img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .wemsg {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 2em;
+    font-weight: 700;
+    color: rgba(75, 75, 75, 0.815);
+  }
