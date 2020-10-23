@@ -13,8 +13,13 @@ class Products extends Component {
         <div className="row justify-content-center m-3">
           <img src={expanded} alt="loading" className="img-fluid" />
         </div>
+<<<<<<< HEAD
         <div className="row justify-content-center text-center m-1">
           <h2>Vyaan HEPA Reusable Respirator</h2>
+=======
+        <div className="container products-title">
+          <h1>Vyaan HEPA Reusable Mask</h1>
+>>>>>>> 4a2dc6df08f8e8381cf08a6c007d67df87697ef8
           <p>
             Stay healthy and breathe clean air with Vyaan N99 mask. Designed for
             superior particle and other pollutant filtration technology.
