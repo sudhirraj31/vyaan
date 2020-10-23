@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import "./aboutus.css";
-import Header from "./header";
-import Card from "./card";
+
 
 class Aboutus extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
-        <div className="container aboutus">
-          <p>
+        <div className="container d-flex justify-content-center aboutus">
+          <p className="text-center align-self-center p-5">
             We are a bunch of enthusiasts keenly dedicated to work on developing
             solutions for the drastic problem of air pollution. The genesis of
             our journey happened when one of us had faced chronic illness

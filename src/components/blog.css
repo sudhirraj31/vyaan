@@ -1,9 +1,14 @@
 .blog {
+  margin: auto;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+.blog h5{
     background-color:rgba(155, 255, 233, 0.295);
     color: #464646e1;
     width: 40%;
     margin: auto;
-    margin-top: 2em;
     padding: 2% 5%;
     font-weight: 600;
     text-align: center;

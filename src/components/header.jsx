@@ -1,32 +1,61 @@
-import React, { Component } from "react";
-import { Navigation } from "react-mdl";
+import React, { useState } from "react";
 import logo from "./img/vyaanlogo.png";
+import {
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavbarToggler,
+  Collapse,
+  NavItem,
+} from "reactstrap";
+import { NavLink } from "react-router-dom";
+import "./header.css";
 
-class Header extends Component {
-  state = {};
-  render() {
-    return (
-      <div className="container header">
-        <div className="row">
-          <div className="col-4 logo">
-            <a href="/">
-              <img src={logo} alt="vyaanlogo" />
-            </a>
-          </div>
-          <div className="col-8 navigation">
-            <Navigation>
-              <a href="/">Home</a>
-              <a href="./Products">Products</a>
-              <a href="./blog">Blog</a>
-              <a href="./aboutus">About Us</a>
-              <a href="./contactus">Contact Us</a>
-              {/* <a href="./careers">Careers</a> */}
-            </Navigation>
+const Header = (props) => {
+  const [isNavOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => setIsOpen(!isNavOpen);
+  console.log(isNavOpen);
+  return (
+    <div>
+      <Navbar light expand="sm" fixed="top">
+        <div className="container-fluid">
+          <div className="row">
+            <NavbarBrand className="col pl-5" href="/">
+              <img src={logo} width="20%" height="auto" alt="logo" />
+            </NavbarBrand>
+            <div className="col align-self-center d-flex justify-content-end">
+              <NavbarToggler onClick={toggleNav} />
+              <Collapse className="justify-content-end" isOpen={isNavOpen} navbar>
+                <Nav navbar>
+                  <NavItem>
+                    <NavLink className="nav-link  px-md-3 px-lg-4 " to="/">
+                      Home
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="nav-link  px-md-3 px-lg-4 " to="/blog">
+                      Blog
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="nav-link  px-md-3 px-lg-4 " to="/aboutus">
+                      About Us
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="nav-link  px-md-3 px-lg-4 " to="/contactus">
+                      Contact Us
+                    </NavLink>
+                  </NavItem>
+                </Nav>
+              </Collapse>
+            </div>
           </div>
         </div>
-      </div>
-    );
-  }
-}
+      </Navbar>
+    </div>
+  );
+};
 
 export default Header;

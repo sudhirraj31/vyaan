@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./social.css";
-import { FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
 
 class Social extends Component {
   render() {
@@ -10,7 +10,10 @@ class Social extends Component {
         <a href="https://www.linkedin.com/in/vyaan-purifiers-348341194/ " target="_blank" rel="noopener noreferrer" className="linkedin social">
           <FaLinkedin size="3.5vw" />
         </a>
-        <a href="https://twitter.com/vyaan_life" target = "_blank" rel="noopener noreferrer" className="twitter social">
+        <a href="https://www.instagram.com/vyaanpurifiers/" target = "_blank" rel="noopener noreferrer" className="instagram social">
+          <FaInstagram size="3.5vw" />
+        </a>
+        <a href="https://twitter.com/vyaan_life"  target = "_blank" rel="noopener noreferrer" className="twitter social">
           <FaTwitterSquare size="3.5vw" />
         </a>
       </div>

@@ -1,46 +1,38 @@
 import React, { Component } from "react";
 import "./landingpage.css";
-import Titles from "./titles";
-import Header from "./header";
-import gif from "./img/basic.gif";
-import Social from './social';
-import Stats from "./stats";
-import Facts from "./facts";
-import Wecare from "./wecare";
-import lungs from "./img/lungs.jpg";
+import Products from "./Products";
+import landingimage from "./img/landingimage.png";
 
 class Landingpage extends Component {
   render() {
     return (
-      <div className = "home">
-        <div className="container-fluid landingpage">
-          <Header />
-          <Titles />
+      <div>
+        <div className="container-fluid d-flex  landingpage">
+          <div className="row align-items-center ">
+            <div className="col-12 col-md-5 offset-md-1 titles">
+              <h1 className="mt-5">VYAAN HEPA</h1>
+              <h4>Stylish Face Mask</h4>
+              <p>
+                Vyaan HEPA Reusable facemask is a simple and elegant air
+                purifying respirator specially designed for the protection of
+                general consumers.
+              </p>
+              <a
+                href="#productinfo"
+                className="col-12 mt-5"
+                class="btn btn-info"
+                role="button"
+              >
+                Explore
+              </a>
+            </div>
+            <div className="col-12 col-md-6 mainimage">
+              <img src={landingimage} alt="face mask" className="img-fluid" />
+            </div>
+          </div>
         </div>
-        <div id="scrolldown" className="content">
-          <Stats />
-          <Facts />
-          <div className="container lungs">
-            <img src={lungs} alt="lungs" />
-            <p>
-              Slowly and steadily it damages the respiratory system leading to many chronic ailments like asthma and Chronic Obstructive Pulmonary Diseases (COPD).  </p>
-          </div>
-          <div className="container-fluid breathing">
-            <h1>It’s Everyone’s Right to Breathe Clean Air</h1>
-          </div>
-          <Wecare />
-          
-          {/* <div className="home-product-link">
-              <div className="row" >
-                <div className="col-4 home-mask-gif">
-                  <a href="/"><img src={gif} alt="mask"/></a>
-                </div>
-                <div className="col-8 explore-products">
-                <a href="/">Explore Our Products</a>
-                </div>
-              </div>
-          </div> */}
-          <Social/>
+        <div id="productinfo">
+          <Products />
         </div>
       </div>
     );
