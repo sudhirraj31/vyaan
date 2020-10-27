@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./product.css";
-import roundview from "./img/roundview.gif";
+import rounded from "./img/rounded.gif";
 import airflow from "./img/airflow.png";
 import silicone from "./img/silicone.png";
 import filter from "./img/filter.png";
@@ -11,7 +11,7 @@ class Products extends Component {
     return (
       <div className="container">
         <div className="row justify-content-center m-3 roundview">
-          <img src={roundview} alt="loading" className="img-fluid rounded" />
+          <img src={rounded} alt="loading" className="img-fluid rounded" />
         </div>
         <div className="row justify-content-center text-center m-1 roundview-content">
           <h2>Vyaan HEPA Reusable Respirator</h2>
