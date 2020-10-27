@@ -1,18 +1,19 @@
 .social {
+    margin-top: 2em;
     text-align: center;
-    padding:5px 10px;
   }
   .social-title{
-    color:rgba(75, 75, 75, 0.856);
-    margin:5px 10px;
-    text-align: center;
-    font-size: 2.4vw; 
-    font-weight: 500;
+    color:rgba(75, 75, 75);
+    font-size: 26px; 
+    font-weight: 700;
+  }
+  .social-content {
+    
   }
   a.social {
-   margin: 5px 10px;
+   margin: 5px 15px;
    transition: transform 250ms;
-   display: inline-block;
+   /* display: inline-block; */
   }
 
   a.social:hover {

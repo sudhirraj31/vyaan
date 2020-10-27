@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./product.css";
-import expanded from "./img/expanded.png";
+import roundview from "./img/roundview.gif";
 import airflow from "./img/airflow.png";
 import silicone from "./img/silicone.png";
 import filter from "./img/filter.png";
@@ -10,10 +10,10 @@ class Products extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row justify-content-center m-3">
-          <img src={expanded} alt="loading" className="img-fluid" />
+        <div className="row justify-content-center m-3 roundview">
+          <img src={roundview} alt="loading" className="img-fluid rounded" />
         </div>
-        <div className="row justify-content-center text-center m-1">
+        <div className="row justify-content-center text-center m-1 roundview-content">
           <h2>Vyaan HEPA Reusable Respirator</h2>
           <p>
             Stay healthy and breathe clean air with Vyaan N99 mask. Designed for
@@ -22,7 +22,7 @@ class Products extends Component {
         </div>
         <div className="row ">
           <div className="col-12 m-3">
-            <h1 className="text-center m-3">Product Features</h1>
+            {/* <h1 className="text-center m-3">Product Features</h1> */}
 
             <div className="row ">
               <div className="col-12 col-md-6 align-self-center text-center text-md-right">
@@ -64,7 +64,7 @@ class Products extends Component {
           </div>
           <div className="row text-center mt-5">
             <div className="col-md-4 justify-content-center">
-              <img src={filter} className="img-fluid" alt="filter"  />
+              <img src={filter} className="img-fluid" width="50%" height="auto" alt="filter"  />
               <h5 className="m-3">Filter</h5>
             </div>
             <div className="col-md-4 align-self-center">
@@ -80,7 +80,7 @@ class Products extends Component {
               </ul>
             </div>
             <div className="col-md-4 justify-content-center">
-              <img src={filterring} className="img-fluid" alt="ring" />
+              <img src={filterring} className="img-fluid" width="50%" height="auto" alt="ring" />
               <h5 className="m-3">Filter Support</h5>
             </div>
           </div>

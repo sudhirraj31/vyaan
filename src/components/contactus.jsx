@@ -18,25 +18,24 @@ class Contactus extends Component {
             <div className="col-12 col-md contactinfo">
               <h3>Contact Us</h3>
               <div className="row">
-                <div className="col contactinfo-address">
-                  <i className="fas fa-map-marker-alt"></i>
+                <div className="col-12 col-md contactinfo-address">
                   <h5>
                     <MdLocationOn size="1.2em" color="#32a2a8" /> ADDRESS
                   </h5>
                 </div>
-                <div className="col hours">
+                <div className="col-12 col-md hours">
                   <h5>
                     <MdAccessTime size="1.2em" color="#32a2a8" /> HOURS
                   </h5>
                 </div>
               </div>
               <div className="row">
-                <div className="col email">
+                <div className="col-12 col-md email">
                   <h5>
                     <MdEmail size="1.2em" color="#32a2a8" /> EMAIL
                   </h5>
                 </div>
-                <div className="col phone">
+                <div className="col-12 col-md phone">
                   <h5>
                     <MdCall size="1.2em" color="#32a2a8" /> PHONE
                   </h5>
@@ -48,9 +47,7 @@ class Contactus extends Component {
             </div>
           </div>
         </div>
-        <div className="row">
-          <Social />
-        </div>
+        <Social />
       </div>
     );
   }
