@@ -18,12 +18,14 @@ class Landingpage extends Component {
                 general consumers.
               </p>
               <a
-                href="#productinfo"
+                href="https://www.amazon.in/dp/B08LHCZNMH?ref=myi_il_dp"
                 className="col-12 mt-5"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="btn btn-info"
                 role="button"
               >
-                Explore
+                Buy Now
               </a>
             </div>
             <div className="col-12 col-md-6 mainimage">
