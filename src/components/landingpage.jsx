@@ -18,7 +18,7 @@ class Landingpage extends Component {
                 general consumers.
               </p>
               <a
-                href="https://www.amazon.in/dp/B08LHCZNMH?ref=myi_il_dp"
+                href="https://www.amazon.in/Vyaan-HEPA-Reusable-Mask/dp/B08LHCZNMH/ref=sr_1_1?dchild=1&m=A1RA5KMP67XCP7&marketplaceID=A21TJRUUN4KGV&qid=1604436857&s=merchant-items&sr=1-1"
                 className="col-12 mt-5"
                 target="_blank"
                 rel="noopener noreferrer"
